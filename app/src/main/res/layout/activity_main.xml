@@ -27,6 +27,7 @@
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/button_menu"
         android:layout_width="220dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
