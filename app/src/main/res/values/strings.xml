@@ -70,6 +70,65 @@
     <string name="fajitaQuesadilla">Fajita Quesadilla</string>
     <string name="fajitaQuesadilla_desc">Quesadilla extra grande, rellena con tu carne favorita, cebolla asada, chile banana y jitomate. Servida con arroz, frijoles y ensalada Extra large quesadilla with your choice of meat, cooked with grilled onions, banana peppers and tomatoes. Served with rice beans and salad.</string>
 
+    <string name = "tortas">Tortas</string>
+    <string name = "tortaRegular">Torta regular</string>
+    <string name = "tortaRegular_desc">All tortas come with lettuce, onions, tomatoes, avocado do, sour cream, mayo, jalapeno pepper and your choice of meat. ​</string>
+    <string name = "tortaMilanesa">Torta -Milanesa de Res o Pollo</string>
+    <string name = "tortaMilanesa_desc">Breaded Steak or Chicken</string>
+    <string name = "tortaCubuana">Torta Cubana</string>
+    <string name = "tortaCubuana_desc">Chorizo, asada, jamon, pastor y queso Mexican sausage, steak, marinated pork, ham, and cheese</string>
+    <string name = "tortaMixta">Torta Mixta</string>
+    <string name = "tortaMixta_desc">Chorizo, asada y pastor Mexican sausage, steak and marinated pork</string>
+
+
+    <string name = "sopas">SOPAS</string>>
+    <string name = "pozole">Pozole</string>>
+    <string name = "menudo">Menudo</string>>
+    <string name = "caldoRes">Caldo de Res</string>>
+    <string name = "sopaMariscos">Sopa de Mariscos</string>>
+    <string name = "coctelCamaron">Caldo de Camaron</string>
+
+    <string name = "combinations">COMBINATIONS</string>
+    <string name = "traditionalTacoCombo">Traditional Taco Combo</string>
+    <string name = "traditionalTacoCombo_desc">Tortilla de Maiz, tu carne favorita, servido con arroz y frijoles Corn tortilla taco, your choice of meat, served with rice and beans</string>
+    <string name = "mexicanBurritos">Mexican Burritos</string>
+    <string name = "mexicanBurritos_desc">Your choice of meat on a big burrito made of flour tortilla with rice, beans, lettuce, grilled onions, pico de gallo, guacamole and sour cream.</string>
+    <string name = "losPortalesBurrito">Los Portales Burrito</string>
+    <string name = "losPortalesBurrito_desc">A flour tortilla wrapped around grilled cactus, steak, pastor, (Seasoned Pork) grilled onions, rice and beans. Served a side of lettuce salad, tomatoes, sour cream and guacamole.</string>
+    <string name = "cinco">Cinco</string>
+    <string name = "cinco_desc">One hard sell taco with your choice of meat, lettuce and cheese. One burrito with your choice of meat, pico de gallo, sour cream, guacamole and beans. Served with rice and beans.</string>
+    <string name = "dosAmigos">Dos Amigos</string>
+    <string name = "dosAmigos_desc">Two hard shell tacos with your choice of meat topped with lettuce and shredded cheese. served with a side of rice and beans</string>
+    <string name = "burritoPepe">Burrito Pepe</string>
+    <string name = "burritoPepe_desc">A flour tortilla wrapped around your choice of meat with beans, lettuce, sour cream, guacamole and pico de gallo. served with a side of rice.</string>
+
+
+    <string name = "drinks">DRINKS</string>
+    <string name = "sodas">Sodas 20 oz.</string>
+    <string name = "jarritos">Jarritos</string>
+    <string name = "aguasFrescas">Aguas frescas</string>
+    <string name = "domesticBeer">Domestic Beer</string>
+    <string name = "mexicanBeer">Mexican Beer</string>
+    <string name = "micheladas">Micheladas</string>
+    <string name = "caguama">Caguama</string>
+    <string name = "caguamaMichelada">Caguama Michelada</string>
+    <string name = "cubetazos">Cubetazos</string>
+    <string name = "lataBeer">Lata Beer</string>
+    <string name = "charolazo">Charolazo</string>
+    <string name = "carolazoCamarones">Carolazo con camarones</string>
+    <string name = "laMamalona">La mamalona</string>
+    <string name = "laMamalonaCamarones">La mamalona con camarones</string>
+    <string name = "cubetazo">Cubetazo (6 Cervezas)</string>
+
+
+    <string name="sides">SIDE ORDERS</string>
+    <string name="sideGuacamole">Side of Guacamole</string>
+    <string name="sideBeans">Side of Beans</string>
+    <string name="sideRice">Side of Rice</string>
+    <string name="sideChips">Chips and Salsa</string>
+    <string name="sideTacos">Flour Tacos</string>
+
+
     <string name="botanaC">Botana de Camarones</string>
 
     <string name="coctelC">Coctel de Camaron</string>
@@ -79,5 +138,8 @@
     <string name="camaron">Camaron</string>
 
     <string name="larger">Larger</string>
+
+
+    <string name="our_menu">Our Menu</string>
 
 </resources>
