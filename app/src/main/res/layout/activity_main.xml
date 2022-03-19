@@ -14,22 +14,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
-        android:text="Eslogan"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/eslogan"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="italic" />
-    
+        android:textColor="@color/dark_green"
+        android:textSize="20sp" />
+
     <Button
         android:layout_width="220dp"
-        android:layout_height="40dp"
-
-        />
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="@string/menu"/>
 
 </LinearLayout>
