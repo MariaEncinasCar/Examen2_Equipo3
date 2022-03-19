@@ -70,6 +70,25 @@
     <string name="fajitaQuesadilla">Fajita Quesadilla</string>
     <string name="fajitaQuesadilla_desc">Quesadilla extra grande, rellena con tu carne favorita, cebolla asada, chile banana y jitomate. Servida con arroz, frijoles y ensalada Extra large quesadilla with your choice of meat, cooked with grilled onions, banana peppers and tomatoes. Served with rice beans and salad.</string>
 
+    <string name = "tortas">Tortas</string>
+    <string name = "tortaRegular">Torta regular</string>
+    <string name = "tortaRegular_desc">All tortas come with lettuce, onions, tomatoes, avocado do, sour cream, mayo, jalapeno pepper and your choice of meat. ​</string>
+    <string name = "tortaMilanesa">Torta -Milanesa de Res o Pollo</string>
+    <string name = "tortaMilanesa_desc">Breaded Steak or Chicken</string>
+    <string name = "tortaCubuana">Torta Cubana</string>
+    <string name = "tortaCubuana_desc">Chorizo, asada, jamon, pastor y queso Mexican sausage, steak, marinated pork, ham, and cheese</string>
+    <string name = "tortaMixta">Torta Mixta</string>
+    <string name = "tortaMixta_desc">Chorizo, asada y pastor Mexican sausage, steak and marinated pork</string>
+
+
+    <string name = "sopas">SOPAS</string>>
+    <string name = "pozole">Pozole</string>>
+    <string name = "menudo">Menudo</string>>
+    <string name = "caldoRes">Caldo de Res</string>>
+    <string name = "sopaMariscos">Sopa de Mariscos</string>>
+    <string name = "coctelCamaron">Caldo de Camaron</string>>
+
+
     <string name="botanaC">Botana de Camarones</string>
 
     <string name="coctelC">Coctel de Camaron</string>
@@ -79,5 +98,8 @@
     <string name="camaron">Camaron</string>
 
     <string name="larger">Larger</string>
+
+
+    <string name="our_menu">Our Menu</string>
 
 </resources>
