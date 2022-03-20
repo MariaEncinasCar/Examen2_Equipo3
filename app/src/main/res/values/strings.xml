@@ -88,6 +88,8 @@
     <string name = "menudo_desc">Wednesday to Sunday</string>
     <string name = "caldoRes">Caldo de Res</string>
     <string name = "caldoRes_desc"></string>
+    <string name = "caldoCamaron">Caldo de Res</string>
+    <string name = "caldoCamaron_desc"></string>
     <string name = "sopaMariscos">Sopa de Mariscos</string>
     <string name = "sopaMariscos_desc">Seafood soup</string>
     <string name = "coctelCamaron">Caldo de Camaron</string>
