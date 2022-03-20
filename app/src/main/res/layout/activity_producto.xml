@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".producto"
+    android:orientation="vertical"
+    android:background="@drawable/first_gradient">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Tacos"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tacos"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tacoT"
+        android:textSize="30sp"
+        android:textColor="@color/dark_green"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tacoT"
+        android:textSize="30sp"
+        android:textColor="@color/dark_green"
+        android:gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radioAsada"
+            android:text="@string/asada"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioPollo"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/pollo"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:id="@+id/radioCarnitas"
+            android:text="@string/carnitas"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioChorizo"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/chorizo"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:id="@+id/radioSuadero"
+            android:text="@string/suadero"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioBuche"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/buche"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:id="@+id/radioPastor"
+            android:text="@string/pastor"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioCachete"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/cachete"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:id="@+id/radioBarbacoa"
+            android:text="@string/barbacoa"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioTripa"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/tripa"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:id="@+id/radioChichrron"
+            android:text="@string/chicharron"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+        <RadioButton
+            android:id="@+id/radioCueritos"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/cueritos"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:id="@+id/radioLengua"
+            android:text="@string/lengua"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
