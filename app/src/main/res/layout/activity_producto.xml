@@ -27,101 +27,53 @@
         android:textColor="@color/dark_green"
         android:gravity="center"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tacoT"
-        android:textSize="30sp"
-        android:textColor="@color/dark_green"
-        android:gravity="center"/>
-
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:columnCount="2"
-        android:layout_marginTop="10dp">
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
 
-        <RadioButton
-            android:id="@+id/radioAsada"
-            android:text="@string/asada"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="15dp"/>
+        <Button
+            android:id="@+id/menosArticulo"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="140dp"
+            android:textColor="@color/white"
+            android:text="-"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
 
-        <RadioButton
-            android:id="@+id/radioPollo"
-            android:layout_gravity="fill_horizontal"
-            android:text="@string/pollo"
-            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="1"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
 
-        <RadioButton
-            android:id="@+id/radioCarnitas"
-            android:text="@string/carnitas"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="15dp"/>
-
-        <RadioButton
-            android:id="@+id/radioChorizo"
-            android:layout_gravity="fill_horizontal"
-            android:text="@string/chorizo"
-            android:layout_marginLeft="5dp" />
-
-        <RadioButton
-            android:id="@+id/radioSuadero"
-            android:text="@string/suadero"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="15dp"/>
-
-        <RadioButton
-            android:id="@+id/radioBuche"
-            android:layout_gravity="fill_horizontal"
-            android:text="@string/buche"
-            android:layout_marginLeft="5dp" />
-
-        <RadioButton
-            android:id="@+id/radioPastor"
-            android:text="@string/pastor"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="15dp"/>
-
-        <RadioButton
-            android:id="@+id/radioCachete"
-            android:layout_gravity="fill_horizontal"
-            android:text="@string/cachete"
-            android:layout_marginLeft="5dp" />
-
-        <RadioButton
-            android:id="@+id/radioBarbacoa"
-            android:text="@string/barbacoa"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="15dp"/>
-
-        <RadioButton
-            android:id="@+id/radioTripa"
-            android:layout_gravity="fill_horizontal"
-            android:text="@string/tripa"
-            android:layout_marginLeft="5dp" />
-
-        <RadioButton
-            android:id="@+id/radioChichrron"
-            android:text="@string/chicharron"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="15dp"/>
-
-        <RadioButton
-            android:id="@+id/radioCueritos"
-            android:layout_gravity="fill_horizontal"
-            android:text="@string/cueritos"
-            android:layout_marginLeft="5dp" />
-
-        <RadioButton
-            android:id="@+id/radioLengua"
-            android:text="@string/lengua"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="15dp"/>
-
-
+        <Button
+            android:id="@+id/masArticulo"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:text="+"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
     </GridLayout>
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineSpotShadowColor="@color/dark_green"
+        android:outlineAmbientShadowColor="@color/dark_green">
+
+
+    </Spinner>
 
 
 </LinearLayout>
