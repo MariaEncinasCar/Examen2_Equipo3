@@ -81,12 +81,17 @@
     <string name = "tortaMixta_desc">Chorizo, asada y pastor Mexican sausage, steak and marinated pork</string>
 
 
-    <string name = "sopas">SOPAS</string>>
-    <string name = "pozole">Pozole</string>>
-    <string name = "menudo">Menudo</string>>
-    <string name = "caldoRes">Caldo de Res</string>>
-    <string name = "sopaMariscos">Sopa de Mariscos</string>>
+    <string name = "sopas">SOPAS</string>
+    <string name = "pozole">Pozole</string>
+    <string name = "pozole_desc">Weekends only</string>
+    <string name = "menudo">Menudo</string>
+    <string name = "menudo_desc">Wednesday to Sunday</string>
+    <string name = "caldoRes">Caldo de Res</string>
+    <string name = "caldoRes_desc"></string>
+    <string name = "sopaMariscos">Sopa de Mariscos</string>
+    <string name = "sopaMariscos_desc">Seafood soup</string>
     <string name = "coctelCamaron">Caldo de Camaron</string>
+    <string name = "coctelCamaron_desc">Shrimp soup</string>
 
     <string name = "combinations">COMBINATIONS</string>
     <string name = "traditionalTacoCombo">Traditional Taco Combo</string>
