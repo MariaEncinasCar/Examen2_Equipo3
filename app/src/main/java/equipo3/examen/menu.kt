@@ -1,5 +1,6 @@
 package equipo3.examen
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -18,8 +19,37 @@ class menu : AppCompatActivity() {
         val btnEspecialidades : Button = findViewById(R.id.button_especialidades)
         val btnSides : Button = findViewById(R.id.button_sides)
 
+        btnTacos.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","tacos")
+        }
 
+        btnCaldos.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","caldos")
+        }
 
+        btnAntojitos.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","antojitos")
+        }
+
+        btnTortas.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","tortas")
+        }
+
+        btnSopas.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","sopas")
+        }
+
+        btnDrinks.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","drinks")
+        }
+
+        btnEspecialidades.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","especialidades")
+        }
+
+        btnSides.setOnClickListener {
+            var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","sides")
+        }
 
     }
 }
