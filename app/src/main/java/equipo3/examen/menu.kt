@@ -10,33 +10,38 @@ class menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        val btnTacos : Button = findViewById(R.id.button_tacos)
-        val btnCaldos : Button = findViewById(R.id.button_caldos)
-        val btnAntojitos : Button = findViewById(R.id.button_antojitos)
-        val btnTortas : Button = findViewById(R.id.button_tortas)
-        val btnSopas : Button = findViewById(R.id.button_sopas)
-        val btnDrinks : Button = findViewById(R.id.button_drinks)
-        val btnEspecialidades : Button = findViewById(R.id.button_especialidades)
-        val btnSides : Button = findViewById(R.id.button_sides)
+        val btnTacos : Button = findViewById(R.id.button_tacos) as Button
+        val btnCaldos : Button = findViewById(R.id.button_caldos) as Button
+        val btnAntojitos : Button = findViewById(R.id.button_antojitos) as Button
+        val btnTortas : Button = findViewById(R.id.button_tortas) as Button
+        val btnSopas : Button = findViewById(R.id.button_sopas) as Button
+        val btnDrinks : Button = findViewById(R.id.button_drinks) as Button
+        val btnEspecialidades : Button = findViewById(R.id.button_especialidades) as Button
+        val btnSides : Button = findViewById(R.id.button_sides) as Button
 
         btnTacos.setOnClickListener {
             var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","tacos")
+            startActivity(intent)
         }
 
         btnCaldos.setOnClickListener {
             var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","caldos")
+            startActivity(intent)
         }
 
         btnAntojitos.setOnClickListener {
             var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","antojitos")
+            startActivity(intent)
         }
 
         btnTortas.setOnClickListener {
             var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","tortas")
+            startActivity(intent)
         }
 
         btnSopas.setOnClickListener {
             var intent:Intent = Intent(this, ProductosActivity::class.java).putExtra("type","sopas")
+            startActivity(intent)
         }
 
         btnDrinks.setOnClickListener {

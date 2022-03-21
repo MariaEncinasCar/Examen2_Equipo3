@@ -11,36 +11,30 @@ import android.widget.ImageView
 import android.widget.ListView
 import android.widget.TextView
 
-var productos = ArrayList<Product>()
-
 class ProductosActivity : AppCompatActivity() {
+    var productos = ArrayList<Product>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_productos)
         productos.clear()
 
-        val extras = intent.extras
+        val extras: String? = intent.getStringExtra("type")
         var listView : ListView = findViewById(R.id.listProductos)
-        if(extras != null){
-            val value = extras.getString("type")
-            print(value)
-            when(value){
-                "tacos"  -> agregarTacos()
-                "sopas"  -> agregarSopas()
-                "antojitos"  -> agregarAntojitos()
-                "especialidades"  -> agregarEspecialidades()
-                "caldos"  -> agregarCaldos()
-                "combinations"  -> agregarCombinations()
-                "tortas"  -> agregarTortas()
-                "sides"  -> agregarSides()
-                "drinks"  -> agregarBebidas()
-                else -> agregarTacos()
-            }
+        when(extras){
+            "tacos"  -> agregarTacos()
+            "sopas"  -> agregarSopas()
+            "antojitos"  -> agregarAntojitos()
+            "especialidades"  -> agregarEspecialidades()
+            "caldos"  -> agregarCaldos()
+            "combinations"  -> agregarCombinations()
+            "tortas"  -> agregarTortas()
+            "sides"  -> agregarSides()
+            "drinks"  -> agregarBebidas()
+            else -> agregarTacos()
         }
+
         var adaptador: AdaptadorProductos = AdaptadorProductos(this, productos)
         listView.adapter = adaptador
-
-
     }
 
 
@@ -222,7 +216,6 @@ class ProductosActivity : AppCompatActivity() {
             return vista
 
         }
-
 
     }
 
